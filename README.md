@@ -1,3 +1,3 @@
 # myLinux
 
-awesome shell,awk,sed
+awesome shell,awk,sed,CLI
