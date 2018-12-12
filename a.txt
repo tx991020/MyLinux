@@ -1,0 +1,25 @@
+ cat<<EOF
+ 1. install rsync
+ 2. install nfs
+ 3. install mysql
+ 4. install all
+ EOF
+
+ rea7523 -p '请输入你的选择：' chs
+
+ case $chs in
+ 1)
+ echo install rsync success
+ ;;
+ 2)
+ echo install nfs success
+ ;;
+ 3)
+ echo install mysql success
+ ;;
+ 4)
+ echo install rsync/nfs/mysql success
+ ;;
+ *)
+ echo "你输入有误"
+ esac
