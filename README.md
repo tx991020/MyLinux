@@ -5,3 +5,4 @@ awesome
 - awk
 - sed
 - CLI
+- Makefile
